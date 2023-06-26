@@ -1,0 +1,70 @@
+header{
+    display: flex;
+}
+.list-products{
+    display: flex;
+    flex-wrap: wrap;
+}
+header h2 {
+    margin-left: 20px;
+}
+
+.product{
+    width: 310px;
+    height: 550px;
+    border: 1px ridge;
+    border-radius: 8px;
+    margin: 20px 20px;
+    padding: 20px;
+    background-color: aquamarine;
+}
+.main{
+    background-color: rebeccapurple;
+}
+img{
+    width: 270px;
+}
+.input{
+    display: flex;
+    justify-content: space-around;
+}
+.btn {
+    background-color: rgb(254, 82, 82);
+    border: 1px ridge;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+}
+section{
+    margin: 20px 40px;
+}
+section h2{
+    display: flex;
+    justify-content:center;  
+}
+.setting{
+    display: flex;
+    flex-wrap: wrap;  
+    
+}
+.btnUp{
+    background-color: yellow;
+    border: 1px ridge;
+        border-radius: 8px;
+}
+.btnDelete{
+    background-color: red;
+    border: 1px ridge;
+        border-radius: 8px;
+}
+table {
+    border-collapse: collapse;
+}
+.total {
+    display: flex;
+    justify-content: center;
+}
+.btn-add9{
+    width: 200px;
+}
